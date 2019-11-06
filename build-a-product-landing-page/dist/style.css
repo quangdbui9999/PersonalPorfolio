@@ -1,0 +1,183 @@
+#headhtml {
+  background: url("https://i.pinimg.com/originals/15/57/1d/15571d7f37274f9a2a09b8fad46e3929.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%; 
+  background-size: cover;
+}
+
+header {
+  background-color: #cfd7e6;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
+
+#header-img {
+  width: 360px;
+  height: 50px;
+  margin: 10px 510px 10px 40px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  float: left;
+  display: block;
+  color: #898a88;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav ul li a:hover {
+  background: yellow;
+  color: red;
+}
+
+nav {
+  width: 100%;
+}
+
+.btn {
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #f2e635;
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: yellow;
+}
+
+.formsection {
+  text-align: center;
+  font-size: 20px;
+}
+
+input {
+  padding: 3px 5px 3px 5px;
+}
+
+.secform {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wordthucong {
+  font-weight: 900;
+  font-size: 30px !important;
+}
+
+.record {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+footer {
+  background: #a1a1a1;
+}
+
+.navbar {
+  margin-top: 200px;
+  overflow: hidden;
+  background-color: #cfd7e6;
+  position: fixed;
+  bottom: 0;
+  width: 98.7%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #898a88;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  background: yellow;
+  color: red;
+}
+
+.lephai {
+  padding-left: 1080px;
+  margin-right: 10px;
+}
+
+.pic {
+  height: 50px;
+  width: 50px;
+}
+
+.dam {
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.canhle {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.aligntd {
+  vertical-align: middle;
+  text-align: center;
+  padding: 2px 80px 2px 10px;
+}
+
+@media screen and (min-width: 720px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+.thirdsection {
+  margin: 200px 0px 200px 0px;
+}
+
+.block3 {
+  display: table-cell;
+  border: 1.5px solid black;
+}
+
+.block3 ol li {
+  list-style: none;
+  text-align: center;
+}
+
+.da {
+  background-color: lightgray;
+  padding: 15px;
+  margin-left: -40px;
+  font-size: 32px;
+  font-weight: 850;
+}
+
+.bigli {
+  padding: 16px;
+}
+
+.inline {
+  display: flex;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 15px;
+  justify-content: center;
+  align-content: center;
+}

@@ -1,0 +1,70 @@
+body {
+  background-color: RGB(0, 255, 255);
+  font-family: Apple Chancery, cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+#description {
+  font-size: 24px;
+  text-align: center;
+}
+
+.background-form {
+  padding: 10px 100px 10px 0px;
+  background-color: #C0C0C0;
+}
+
+.row-in {
+  display: block;
+}
+
+.label-name {
+  line-height: 50px;
+  width: 50%;
+  text-align: right;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.input-name {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+input {
+  font-size: 20px;
+  margin: 5px;
+  padding: 2px 2px 2px 4px;
+  text-align: left;
+}
+
+#dropdown1 {
+  font-size: 20px;
+  padding: 5px;
+}
+
+#dropdown {
+  padding: 5px;
+  font-size: 20px;
+}
+
+textarea {
+  margin: 10px;
+  width: 300px;
+  height: 70px;
+}
+
+.one-row {
+  text-align: center;
+}
+
+#submit {
+  background-color: #427ddb;
+  font-size: 28px;
+}

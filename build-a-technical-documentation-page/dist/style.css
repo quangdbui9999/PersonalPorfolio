@@ -1,0 +1,93 @@
+header {
+  font-weight: 900;
+  font-size: 2.0em;
+  padding: 10px;
+}
+
+body {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+nav header {
+  padding: 15px;
+}
+
+#navbar {
+  height: 100%;
+  width: 320px;
+  border-right: 2px solid black;
+  overflow-y: auto;
+  position: fixed;
+  padding-right: 40px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.bottomline {
+  border-bottom: 1px solid black;
+}
+
+.list-circle {
+  list-style: circle;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+nav ul li {
+  border-top: 1px solid black;
+  padding: 15px 0px 15px 40px;
+  width: 100%;
+  display: block;
+}
+
+nav ul li a {
+  width: 100%;
+  padding: 14px 16px 14px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  background-color: yellow;
+  color: green;
+}
+
+main {
+  position: absolute;
+  padding: 10px;
+  text-align: justify;
+}
+
+p {
+  margin-left: 20px;
+}
+
+section ul li {
+  margin-left: 40px;
+}
+
+code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(44, 5%, 92%);
+  padding: 10px;
+  margin: 20px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 720px){
+    code {
+        width: 100%;
+    }
+}
+
+#main-doc {
+  background-color: #e8e3a9;
+  margin: 10px 10px 10px 370px;
+}
